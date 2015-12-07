@@ -1,6 +1,8 @@
 PyVernier - Draw Vernier Scales with Python
 ===========================================
 
+![Example Vernier scale](https://cloud.githubusercontent.com/assets/58341/11627216/20330be8-9ce9-11e5-9041-6e48a711f549.png)
+
 Summary
 -------
 
@@ -14,3 +16,12 @@ Have a look at the examples in the 'examples' directory, they should be fairly e
 
 I wrote this package so I could use a vernier scale on my center of gravity gauge, to increase the resolution
 of the readout a bit.
+
+Installation
+------------
+
+On OSX, I use bre to install the cairo dependency.
+
+```
+$> brew install py2cairo
+```
